@@ -585,6 +585,9 @@
   .w-3 {
     width: calc(var(--spacing) * 3);
   }
+  .w-3\/10 {
+    width: calc(3/10 * 100%);
+  }
   .w-8 {
     width: calc(var(--spacing) * 8);
   }
@@ -728,6 +731,11 @@
   .md\:w-3\/10 {
     @media (width >= 48rem) {
       width: calc(3/10 * 100%);
+    }
+  }
+  .md\:max-w-3xl {
+    @media (width >= 48rem) {
+      max-width: var(--container-3xl);
     }
   }
   .md\:items-stretch {
